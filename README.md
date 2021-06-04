@@ -26,6 +26,8 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+This is an CRUD application, for see the frontend please visit this another repository (https://github.com/danixl30/crud-webversion), and the android version (https://github.com/danixl30/CRUD-MobileVersion)
+
 ## Installation
 
 ```bash
@@ -72,4 +74,4 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 Nest is [MIT licensed](LICENSE).
 
-#mongodb://localhost/CrudTest This is the original DB
+

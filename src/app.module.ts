@@ -7,7 +7,7 @@ import { NotesModule } from './notes/notes.module';
 import { MongooseModule } from '@nestjs/mongoose';
 
 @Module({
-  imports: [UserModule, MongooseModule.forRoot('mongodb+srv://danixl30:1234@cluster0.ytlc6.mongodb.net/myFirstDatabase?retryWrites=true&w=majority')],
+  imports: [UserModule, MongooseModule.forRoot('mongodb://localhost/CrudTest')],
   controllers: [AppController],
   providers: [AppService],
 })
